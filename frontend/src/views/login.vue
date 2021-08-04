@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-header">
         <div class="flex items-center justify-between">
-          <p class="card-title">扫码登录</p>
+          <p class="card-title">扫码登录(京东app扫码)</p>
           <span
             class="ml-2 px-2 py-1 bg-gray-200 rounded-full font-normal text-xs"
             >余量：{{ marginCount }}</span

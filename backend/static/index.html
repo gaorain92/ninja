@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ninja</title>
+    <title>活动处理器</title>
     <script type="module" crossorigin src="/assets/index.1a8beb0e.js"></script>
     <link rel="modulepreload" href="/assets/vendor.baa403e4.js">
     <link rel="stylesheet" href="/assets/index.fcdd9895.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript">
+		$(".pl-3").html("活动处理器");
+		$($(".card-title")[0]).html("温馨提示：");
+		$($(".card-body").find("p")[2]).remove();
+		$($(".card-body").find("p")[2]).remove();
+		$(".card-body").append('<p><a>点击添加微信</a></p>');
+	</script>
   </head>
   <body>
     <div id="app"></div>
