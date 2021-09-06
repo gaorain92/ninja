@@ -15,8 +15,15 @@
 			$($(".card-title")[0]).html("温馨提示：");
 			$($(".card-body").find("p")[2]).remove();
 			$($(".card-body").find("p")[2]).remove();
-			$(".card-body").append('<p><a id="" href="#">点击添加微信</a></p>');
+			// $(".card-body").append('<p><a id="" href="#">点击添加微信</a></p>');
+			$($(".card-title")[1]).html("扫码登陆(请使用京东app)微信扫码无用");
+			var yl = $($(".card-title")[1]).next().html();
+			yl.replace("余量", "剩余名额");
+			$($(".card-title")[1]).next().html(yl);
 		});
+		// function submit(){
+			
+		// }
 	</script>
   </head>
   <body>
